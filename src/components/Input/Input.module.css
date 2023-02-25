@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+
+
+.inputLabel{
+    background-color: rgb(44, 14, 44);
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+#textInput{
+    height: 50px;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    margin-right: 15px;
+}
+.placeholder {
+    padding: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.shorten{
+    height: 50px;
+    width: 140px;
+    background-color: #0f647e;
+    color: white;
+    border: none;
+    border-radius:10px ;
+    transition: all .3s ease 0s ;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.shorten:hover{
+    background-color: #fff;
+    color: #0f647e;
+}

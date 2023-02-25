@@ -1,0 +1,62 @@
+* {
+	background-color: rgb(255, 255, 255);
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
+
+li,
+a,
+button {
+	font-weight: 800;
+	font-size: 16px;
+	color: gray;
+	text-transform: none;
+	text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.img_logo {
+	cursor: pointer;
+}
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.links {
+	list-style: none;
+}
+.links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.links li a {
+	transition: all 0.3s ease 0s;
+}
+.links li a:hover {
+	color: blue;
+}
+
+.signUp
+{
+	background-color: rgb(11, 192, 224);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+    padding: 9px 25px;
+    margin-left: 30px;
+    transition: all .3s ease 0s ;
+    color: white;
+}
+.login{
+    border:none;
+}
+.signUp:hover
+ {
+    background-color: #fff;
+    color: gray;
+}
