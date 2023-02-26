@@ -1,0 +1,68 @@
+.wrapperGrid {
+	height: 30%;
+	width: 50%;
+	display: grid;
+	margin: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 4%;
+}
+.brand,
+.detailed,
+.fully {
+	position: relative;
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.brand {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	transform: translateY(-30px);
+}
+.detailed {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.fully {
+	grid-column: 3/3;
+	grid-row: 1/2;
+	transform: translateY(30px);
+}
+.brandName,
+.detailedName,
+.fullyName {
+	line-height: 30px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+p {
+	line-height: 25px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: gray;
+	font-weight: 500;
+}
+.imgAdvanced {
+	width: 60px;
+	height: 60px;
+	background-color: rgb(40, 14, 87);
+	position: absolute;
+	top: -30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+.imgad {
+	background-color: rgb(40, 14, 87);
+	width: 30px;
+	height: 30px;
+}

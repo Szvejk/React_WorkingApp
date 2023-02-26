@@ -1,9 +1,6 @@
 import React from 'react';
 import styles from './Input.module.css';
 
-interface Props {
-	text: string;
-}
 const Input = () => {
 	return (
 		<div className={styles.inputLabel}>
