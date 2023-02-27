@@ -3,10 +3,11 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
+
 
 li,
 a,
@@ -27,17 +28,18 @@ button {
 	align-items: center;
 	padding: 30px 10%;
 }
-.links {
+.liNav {
 	list-style: none;
+	background-color: #fff;
 }
-.links li {
+ .liNav {
 	display: inline-block;
 	padding: 0px 20px;
 }
 .links li a {
 	transition: all 0.3s ease 0s;
 }
-.links li a:hover {
+  .liNav a:hover {
 	color: blue;
 }
 

@@ -7,13 +7,13 @@ const Nav = () => {
 			<img className={styles.img_logo} src='images/logo.svg' alt='logo' />
 			<nav className={styles.navigation}>
 				<ul className={styles.links}>
-					<li>
+					<li className={styles.liNav}>
 						<a href='#Features'>Features</a>
 					</li>
-					<li>
+					<li className={styles.liNav}>
 						<a href='#Pricing'>Pricing</a>
 					</li>
-					<li>
+					<li className={styles.liNav}>
 						<a href='#Resources'>Resources</a>
 					</li>
 				</ul>
