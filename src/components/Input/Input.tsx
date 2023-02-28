@@ -1,7 +1,11 @@
 import React from 'react';
 import styles from './Input.module.css';
 
-const Input = () => {
+interface InputProps {
+	value: string;
+}
+
+const Input = ({value}:InputProps) => {
 	return (
 		<div className={styles.inputLabel}>
 		
@@ -9,7 +13,7 @@ const Input = () => {
 				type='text'
 				id={styles.textInput}
 				name='firstname'
-				placeholder ='Shorten a link here..' className={styles.placeholder}></input>
+				placeholder ='Shorten a link here..' className={styles.placeholder} value={value}></input>
 
 			<button className={styles.shorten}>Shorten it!</button>
 		</div>
